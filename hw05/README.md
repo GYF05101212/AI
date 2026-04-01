@@ -15,3 +15,18 @@ hw05/
 
 ```bash
 pip install -r requirements.txt
+
+## 实验结果
+
+| 模型 | 参数量 | 测试准确率 | 训练耗时 |
+|-----|-------|-----------|---------|
+| 极简CNN | 31,530 | 98.08% | ~2-3 分钟 |
+| LeNet-5 | 91,946 | 99.04% | 4.69 分钟 |
+
+## 调试记录
+
+详见 [debug_notes.md](debug_notes.md)
+
+## 报告
+
+详见 [report.md](report.md)
